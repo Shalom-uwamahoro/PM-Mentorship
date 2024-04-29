@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    padding: 0 20px;
+  }
+  
+  #background{
+    background-color: #729abd;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #c3aedb;
+    color: #fff;
+    font-size: 10px;
+    margin-top: 0.5%;
+    
+  }
+  
+  .logo {
+    width: 100px;
+    height: 65px;
+    margin-right: 20px;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .nav_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    font-weight: 500;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .nav_links * {
+    color: #fff;
+  }
+  
+  .nav_links a:hover {
+    background-color: #fff;
+    color: #525e90;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+.toDo_page{
+    height: 600px;
+    margin-top: 5%;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+p{
+    font-size: 25px;
+    text-align: center;
+   
+}
+
+.link{
+  border: solid black 0.5px;
+  border-radius: 0px;
+  font-size: 15px;
+  color: black;
+  padding: 20px 142px;
+  padding-left: 0px;
+  border-color: #656263;
+}
+input{
+    width: 72%;
+    height: 10%;
+    margin-left: 14%;
+    
+}
+
+#task{
+    background-color: #525e90;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 45%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+#todo-list li button {
+  margin-left: 10px;
+  background-color:blueviolet;
+  border: none;
+  color: white;
+  padding: 5px 5px;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 25px;
+  }
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    gap: 30%;
+    padding: 40px 20px;
+    background-color: #656263;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 2%;
+  
+  }
+
+  .address{
+    font-size: 20px;
+  
+  }
+  
+  .copyright p {
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  
+  .icons{
+    display: flex;
+    gap: 10%;
+    margin-left: 2%;
+    background-color:white;
+    cursor: pointer;
+    width: 139px;
+    
+}
+
+
+@media all and (min-width:280px) and (max-width:1024px){
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 9px;
+    border-radius: 8px;
+    background-color: #c3aedb;
+    color: #fff;
+    font-size: 8px;
+  
+  }
+  
+  .logo {
+    width: 50px;
+    height: 35px;
+    margin-right: 10px;
+  }
+  
+  .logo img {
+    width: 50%;
+    height: 50%;
+  }
+  
+  .nav_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    font-weight: 500;
+    font-size: 10px;
+  }
+  
+  .nav_links * {
+    color: #fff;
+  }
+  
+  .nav_links a:hover {
+    background-color: #fff;
+    color: #525e90;
+    padding: 2px 5px;
+    border-radius: 5px;
+  }
+
+
+
+  .toDo_page{
+    height: 400px;
+    margin-top: 3%;
+}
+
+h1{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+p{
+    font-size:11px;
+    text-align: center;
+}
+
+input{
+    width: 40%;
+    height: 5%;
+    margin-left: 5%;
+}
+
+#task{
+    background-color: #525e90;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 2px;
+    font-size: 9px;
+    margin-left: 20%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+#todo-list li button {
+  margin-left: 5px;
+  background-color:blueviolet;
+  border: none;
+  color: white;
+  padding: 2px 2px;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 7px;
+  font-size: 11px;
+  }
+
+  
+footer {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  padding: 8px 10px;
+  background-color: #656263;
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 5%;
+  
+  
+}
+
+.address{
+  font-size: 8px;
+
+}
+
+.copyright p {
+  font-size: 8px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;  
+  gap: 0.5%;
+  width: 30px;
+}
+
+.icons{
+ display: flex;
+cursor: pointer;
+ font-size: 10px;
+ 
+}
+
+}
