@@ -84,6 +84,13 @@ p{
    
 }
 
+#addBox{
+  width: 25px;
+  height: 25px;
+  margin-left: 45%;
+  margin-top: 2%;
+}
+
 .link{
  
   font-size: 20px;
@@ -96,6 +103,11 @@ input{
     height: 10%;
     margin-left: 14%;
     
+}
+
+#toDo{
+  text-align: center;
+  font-size: 2git 0px;
 }
 
 #task{
@@ -161,6 +173,7 @@ footer {
     width: 139px;
     
 }
+
 
 
 @media all and (min-width:280px) and (max-width:1024px){
