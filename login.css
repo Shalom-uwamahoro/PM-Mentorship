@@ -216,10 +216,20 @@
     
   }
   
-  header {
+  /* header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 5px 9px;
+    border-radius: 8px;
+    background-color: #c3aedb;
+    color: #fff;
+    font-size: 8px;
+  
+  } */
+
+  header {
+    display: flex;
     padding: 5px 9px;
     border-radius: 8px;
     background-color: #c3aedb;
@@ -241,13 +251,19 @@
   
   .nav_links {
     display: flex;
+    flex-direction: column;
+    font-size: 8px;
+  }
+  
+  .nav_links {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     flex: 1;
     font-weight: 500;
     font-size: 10px;
   }
-  
+
   .nav_links * {
     color: #fff;
   }
@@ -259,6 +275,13 @@
     border-radius: 5px;
   }
 
+  h1{
+    font-size: 12px;
+  }
+
+  p{
+    font-size: 9px;
+  }
 
   #regForm {
     display: flex;
@@ -352,7 +375,6 @@
   }
 
 
-  
   footer {
     display: flex;
     align-items: center;
@@ -365,7 +387,7 @@
     
     
   }
-
+  
   .address{
     font-size: 8px;
   
@@ -375,18 +397,18 @@
     font-size: 8px;
     text-align: center;
   }
+  
   .footer-content {
     display: flex;  
     gap: 0.5%;
     width: 30px;
   }
   
-  
   .icons{
    display: flex;
   cursor: pointer;
    font-size: 10px;
    
-}
+  }
 
 }
